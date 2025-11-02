@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Send Me USDT</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f7f9fc; color: #222;
+           display: flex; flex-direction: column; align-items: center;
+           padding: 30px; }
+    h1 { color: #0a84ff; }
+    .address-card { background: white; padding: 20px; margin: 15px;
+                    border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+                    width: 320px; text-align: center; }
+    img { width: 200px; margin: 10px 0; }
+    code { background: #f1f1f1; padding: 5px 8px; border-radius: 6px; }
+  </style>
+</head>
+<body>
+  <h1>💸 Send Me USDT</h1>
+  <p>Thank you for your support! Choose your network and send only USDT on that chain.</p>
+
+
+
+  <div class="address-card">
+    <h3>BEP-20 (BSC)</h3>
+    <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=YOUR_BEP20_ADDRESS" alt="BEP20 QR">
+    <p><code>0x8489ff60596cCe8c51643405548F8A2128F9Fb0a</code></p>
+  </div>
+
+  <div class="address-card">
+    <h3>SPL (Solana)</h3>
+    <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=YOUR_SOLANA_ADDRESS" alt="Solana QR">
+    <p><code>2YUan6rH4dwPLsymLgjpMZ1YHniSBXGQE2BAsPLQEpKK</code></p>
+  </div>
+
+  <p><b>⚠️ Tip:</b> Always test with $1 first and use the correct network.</p>
+</body>
+</html>
